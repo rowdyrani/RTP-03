@@ -41,7 +41,7 @@
         mode: '0755'
       with_items:
         - /opt/RTP-03/docker-compose.yaml
-        - /opt/RTP-03/nginx.conf
+        - /opt/RTP-03/nginx.yml
 
     - name: run docker compose service
       shell:
